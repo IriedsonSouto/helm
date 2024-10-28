@@ -2404,6 +2404,18 @@ models:
     release_date: 2024-09-12
     tags: [TEXT_MODEL_TAG, LIMITED_FUNCTIONALITY_TEXT_MODEL_TAG, INSTRUCTION_FOLLOWING_MODEL_TAG]
 
+  ## IBM
+  # Served by HuggingFace.
+  - name: ibm-granite/granite-3.0-2b-base
+    display_name: Granite-3.0 (2B)
+    description: Granite-3.0 (2B) is a transformer model trained for use cases of LLMs in text-to-text generation include summarization, text classification, extraction, question-answering, and more. All Granite Base models are able to handle these tasks as they were trained on a large amount of data from various domains. Moreover, they can serve as baseline to create specialized models for specific application scenarios.
+    creator_organization_name: IBM
+    access: open
+    num_parameters: 2000000000
+    release_date: 2024-10-21
+    tags: [TEXT_MODEL_TAG, FULL_FUNCTIONALITY_TEXT_MODEL_TAG, INSTRUCTION_FOLLOWING_MODEL_TAG]
+
+
   ## Codex Models
   # DEPRECATED: Codex models have been shut down on March 23 2023.
 
